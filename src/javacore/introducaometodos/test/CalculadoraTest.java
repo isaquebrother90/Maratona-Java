@@ -17,5 +17,9 @@ public class CalculadoraTest {
         calc.imprimeDoisNumerosDivididos(20,5);//Não se deve imprimir um método void dentro de System.out.print.
         System.out.println("Continuando a execução...");
 
+        int[] numeros = {1,2,3,4,5};
+        calc.somaArray(numeros);
+        calc.somaVarArgs(1,2,3,4,5);
+
     }
 }
